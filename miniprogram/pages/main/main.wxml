@@ -1,0 +1,24 @@
+<!--pages/main/main.wxml-->
+<view class="page_body">
+  <view class="page_little_title">
+    <text class="text_title">职位一览</text>
+  </view>
+  <form bindsubmit="form_submit">
+    <scroll-view scroll-y="true" style="height=600rpx" class="page_text">
+      <checkbox-group class="group" bindchange="checkboxChange" name="checkbox_g">
+        <view class="label_style" wx:for="{{checkboxItems}}" wx:key="name">
+          <label>
+            <checkbox value="{{item.name}}" checked="{{item.checked}}"></checkbox>
+            <text space="ensp">  {{item.value}}</text>
+          </label>
+        </view>
+      </checkbox-group>
+    </scroll-view>
+    <view class="section">
+      <text>你将要投递的岗位是:{{job}}</text>
+    </view>
+    <view class="section_button">
+      <button form-type="submit">投递简历</button>
+    </view>
+  </form>
+</view>

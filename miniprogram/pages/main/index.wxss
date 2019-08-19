@@ -1,0 +1,48 @@
+/* pages/main/index.wxss */
+swiper-item{
+  width:100%;
+  height:100%;
+}
+swiper{
+  width:100%;
+  height:300rpx;
+}
+.page_body{
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+}
+.page_section{
+  margin-bottom: 30rpx;
+  width:100%;
+  border-top: 5rpx solid black;
+  border-bottom:5rpx solid black;
+}
+.page_section_center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page_little_title{
+  width:200rpx;
+  height:70rpx;
+  border: 5rpx solid black;
+  margin-bottom: 5rpx;
+}
+.page_text{
+  width: 749rpx;
+  height:600rpx;
+  border: 1rpx solid black;
+}
+.swiper_item_center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text_title{
+  font-size: 48rpx;
+  text-align:center;
+}
+.text_synopsis{
+  font-size:30rpx;
+  font-weight: lighter;
+}

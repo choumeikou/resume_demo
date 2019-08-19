@@ -1,0 +1,19 @@
+<!--pages/upload/upload.wxml-->
+<view class="page_body">
+  <view class="section">
+    <text>你选择的职位：{{job}}</text>
+  </view>
+  <form bindsubmit="upfilefun">
+  <view class="section">
+    <input placeholder="请选择你要上传的简历（word/pdf)" value="{{filename}}" disabled="true"></input>
+  </view>
+  <view class="section">
+    <button bindtap="choosefilefun">选择</button>
+  </view>
+  <view class="section">
+    <button form-type="submit">上传</button>
+  </view>
+  </form>
+</view>
+
+
