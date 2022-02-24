@@ -11,10 +11,26 @@ App({
         //   此处请填入环境 ID, 环境 ID 可打开云控制台查看
         //   如不填则使用默认环境（第一个创建的环境）
         // env: 'my-env-id',
+        env:'huashi-resume',
         traceUser: true,
       })
     }
-
+   /* wx.cloud.getTempFileURL({
+      fileList: ['cloud://huashi-resume.6875-huashi-resume-1300052905/font/msyh.ttf'],
+      success:res=>{
+        let newpath = res.fileList[0].tempFileURL
+        wx.loadFontFace({
+          family: 'msyh',
+          source: 'url("https://dn-qtshe.qbox.me/HYZhengYuan-95W.ttf")',
+          success: function (res) {
+            console.log('成功',res.status)
+          },
+          fail: function (res) {
+            console.log('失败',res.status)
+          }
+        })
+      }
+    })*/
     this.globalData = {}
   }
 })

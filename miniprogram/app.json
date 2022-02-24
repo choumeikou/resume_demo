@@ -1,26 +1,15 @@
 {
   "pages": [
     "pages/main/index",
-    "pages/index/index",
-    "pages/userConsole/userConsole",
-    "pages/storageConsole/storageConsole",
-    "pages/databaseGuide/databaseGuide",
-    "pages/addFunction/addFunction",
-    "pages/deployFunctions/deployFunctions",
-    "pages/chooseLib/chooseLib",
-    "pages/openapi/openapi",
-    "pages/openapi/serverapi/serverapi",
-    "pages/openapi/callback/callback",
-    "pages/openapi/cloudid/cloudid",
     "pages/main/main",
     "pages/upload/upload"
   ],
   "tabBar": {
     "custom": true,
-    "color": "#7A7E83",
-    "selectedColor": "#3cc51f",
+    "color": "white",
+    "selectedColor": "black",
     "borderStyle": "black",
-    "backgroundColor": "#ffffff",
+    "backgroundColor": "#02DA02",
     "list": [
       {
         "pagePath": "pages/main/index",
@@ -36,7 +25,7 @@
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTitleText": "欢迎加入华西绿舍",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json"

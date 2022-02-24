@@ -154,3 +154,24 @@ page {
   line-height: 36rpx;
   word-break: break-all;
 }
+.text_title{
+  font-size: 48rpx;
+  color: white;
+  text-align:center;
+}
+.page_little_title{
+  width:200rpx;
+  height:70rpx;
+  background: rgb(2, 218, 2);
+  margin-bottom: 20rpx;
+}
+.page_body{
+  padding: 20rpx;
+}
+
+.page_section{
+  margin-bottom: 30rpx;
+  width:100%;
+  border-top: 3rpx solid rgb(117, 117, 117);
+  border-bottom:3rpx solid rgb(117, 117, 117);
+}

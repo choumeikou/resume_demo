@@ -4,21 +4,27 @@
     <text class="text_title">职位一览</text>
   </view>
   <form bindsubmit="form_submit">
-    <scroll-view scroll-y="true" style="height=600rpx" class="page_text">
+    <scroll-view scroll-y="true" style="height=600rpx" class="page_section">
       <checkbox-group class="group" bindchange="checkboxChange" name="checkbox_g">
-        <view class="label_style" wx:for="{{checkboxItems}}" wx:key="name">
-          <label>
-            <checkbox value="{{item.name}}" checked="{{item.checked}}"></checkbox>
-            <text space="ensp">  {{item.value}}</text>
-          </label>
+      <view class="table">
+        <view class="tr">
+          <view class="td_1">选择</view>
+          <view class="td_2">招聘岗位</view>
+          <view class="td_3">专业</view>
         </view>
+        <view class="tr" wx:for="{{checkboxItems}}" wx:key="name">
+            <checkbox class="td_1" value="{{item.name}}" checked="{{item.checked}}"></checkbox>
+            <view class="td_2" >{{item.name}}</view>
+            <view class="td_3" >{{item.value}}</view>
+        </view>
+      </view>
       </checkbox-group>
     </scroll-view>
-    <view class="section">
+    <view class="input">
       <text>你将要投递的岗位是:{{job}}</text>
     </view>
     <view class="section_button">
-      <button form-type="submit">投递简历</button>
+      <button class="btn_1" style="width:60%" form-type="submit">投递简历</button>
     </view>
   </form>
 </view>

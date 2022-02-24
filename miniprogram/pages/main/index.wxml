@@ -2,15 +2,24 @@
 <view class="container">
   <view class="page_body">
     <view class="page_section">
-      <swiper indicator-dots="true" indicator-color="white" indicator-active-color="grey" autoplay="true" circular="true"interval="2500" duration="1000">
+      <swiper indicator-dots="true" indicator-color="white" indicator-active-color="grey" autoplay="true" circular="true" interval="2500" duration="1000">
         <swiper-item class="swiper_item_center">
-          <image src="/images/background1.jpg"></image>
+          <image mode="widthFix" src="/images/background1.png"></image>
         </swiper-item>
         <swiper-item class="swiper_item_center">
-          <image src="/images/background2.png"></image>
+          <image mode="widthFix" src="/images/background2.png"></image>
         </swiper-item>
         <swiper-item class="swiper_item_center">
-          <image src="/images/background3.jpg"></image>
+          <image mode="widthFix" src="/images/background3.png"></image>
+        </swiper-item>
+        <swiper-item class="swiper_item_center">
+          <image mode="widthFix" src="/images/background4.png"></image>
+        </swiper-item>
+        <swiper-item class="swiper_item_center">
+          <image mode="widthFix" src="/images/background5.jpg"></image>
+        </swiper-item>
+        <swiper-item class="swiper_item_center">
+          <image mode="widthFix" src="/images/background6.jpg"></image>
         </swiper-item>
       </swiper>
     </view>
@@ -18,12 +27,25 @@
       <text class="text_title">公司简介</text>
     </view>
     <scroll-view scroll-y="true" style="height=600rpx" class="page_text">
-        <text class="text_synopsis" space="emsp">  四川华西绿舍建材有限公司是四川华西集团实施一体化及相关多元化战略，围绕建筑产业链，全力整合集团内的建材产业资源，重组设立的建材企业。公司注册资本1.59亿元，2016年营业收入18.16亿元，现旗下控股公司有四川华西绿舍预制构件有限公司、四川华西管桩工程有限公司、重庆华西混凝土工程有限公司、重庆华西易通建设股份有限公司（股票代码870417）、四川华西绿舍精城建材有限公司、四川华西绿舍宏泰混凝土有限公司、四川华西兴发建材有限公司；主要业务包括两大产品体系：预拌产品体系：高性能商品砼、湿拌砂浆、生态透水混凝土系列等；预制产品体系：预应力管桩、预制桥梁构件、地下综合管廊、电力箱涵、有轨电车轨道板、预制装配式混凝土构件、市政构件新型墙体材料、建筑垃圾处理及再生资源利用等。\n</text>
-        <text class="text_synopsis" space="emsp">  建材生产作为华西集团主营业务之一，四川华西绿舍建材有限公司作为集团建材板块承载平台，预拌商品混凝土为核心业务。自1988年在西南地区首家推出预拌商品混凝土以来，率先开发并实践了C80高性能混凝土、C60自密实混凝土、清水混凝土、高抛自密实混凝土等多类特种混凝土， 在成都创造了日产20000m3、月产500000m3，一次性泵送高度200米、一次性浇筑30000m3底板的行业纪录，在西南地区预拌商品混凝土行业中一直保持领先地位。\n</text>
-        <text class="text_synopsis" space="emsp">  曾多次荣获“全国优秀施工企业”、“中国混凝土行业优秀企业”、“中国混凝土企业10强” 、“四川省工程质量信得过单位”、“全国行业质量示范企业”、“职业道德建设先进单位”称号、 “建筑业先进企业”、 “四川重质量、重安全、讲诚信优秀品牌企业” 、“AAA”资信等级企业；建设部和四川省“科技进步一等奖”等荣誉。\n</text>
-        <text class="text_synopsis" space="emsp">  华西绿舍秉承“绿色发展、科技强企”的理念，大力投入技术创新，技术研发中心2016年认定为有四川省企业技术中心，近年完成了79个新产品、新技术、新工艺的研发工作，其中“加气混凝土砌块应用技术的综合研究与示范”填补了四川省内空白；公司主编、参编完成的标准、图集工法多达23项，其中主持编写的《建筑工业化混凝土预制构件制作、安装及验收规范》、《高层装配式吊装施工工法》，填补了建筑工业化规范标准的空白；公司申请专利45项，截止目前已获得授权专利32项，有两个通过省级以上组织认定的实验室（试验室），《高强高性能混凝土收缩开裂理论及关键技术研究与应用》获得2015年度中国材料研究学科技奖一等奖。\n</text>
-        <text class="text_synopsis" space="emsp">  华西绿舍坚持“以人为本”，发扬“善建者·华西”的企业文化精髓，将一直秉承“厚德载物”式的社会责任感进一步创新发展。未来根据战略规划，华西绿舍瞄准建筑工业化发展方向，致力于开发环保节能低碳类建材产品，从而形成基础建材集成、建筑环保节能产业等业务的综合发展，同时公司将积极谋划上市，努力打造成西南地区乃至国内建材行业的航空母舰。\n</text>
-  </scroll-view>
-    
+        <text class="text_synopsis" space="emsp">  四川华西绿舍建材有限公司是中国500强企业、四川省属大型国有建筑企业四川华西集团有限公司围绕建筑产业链，实施多元化战略，2009年重组整合华西集团内建材业务成立的全资子公司，系华西集团建材业务、装配式建筑业务发展承载平台。公司主营业务包括预拌混凝土、装配式建筑、产业链延伸三大业务板块；旗下控股子公司11家，分别位于成都、重庆、宜宾、德阳、内江和西昌等地。公司注册资本1.59亿元，2018年实现营收32亿元，员工总数1200余人。\n  公司始终秉承“建时代精品，筑美好人生”的企业宗旨，发扬“秉德从道，善建天下”的企业精神，坚持“绿色发展、科技强企”的发展理念，大力弘扬外以客户为中心、内以“责任、务实、创新、包容”为优良工作作风的企业文化，曾多次荣获四川省国资委先进基层党组织、四川省先进文明单位、四川省建筑业优秀企业、四川省工程质量信得过单位、全国行业质量示范企业、中国混凝土行业优秀企业、建设部和四川省“科技进步一等奖”、“质量榜样年度质量标杆企业奖”、“2018年度质量金鼎奖”荣誉；公司连续多年荣登中国预拌混凝土企业十强，中国建材企业50强企业，中国混凝土行业绿色生产示范企业、四川省首家经省建设主管部门认可的国家绿色建材三星标识企业，中国863项目纳米改性水泥基胶凝材料的制备与应用技术示范基地。\n</text>
+    </scroll-view>
+    <view class="page_little_title">
+      <text class="text_title">薪资福利</text>
+    </view>
+    <scroll-view scroll-y="true" style="height=600rpx" class="page_text">
+        <view class="view_point"><text class="text_synopsis" space="emnp">● 现金收入：多种薪酬奖金激励，包含岗位工资，职级工资、绩效奖励，学历补贴、职称技能补贴、职/执业资格补贴、司龄津贴、防暑降温费、冬季取暖费、误餐费补贴、交通补贴、通讯补贴、外区补贴、住房补贴及安家费等。\n</text></view>
+        <view class="view_point"><text class="text_synopsis" space="emnp">● 保险福利：多种社会保险福利，六险两金（在国家规定基础上增加补充医疗保险、企业年金）等。\n</text></view>
+        <view class="view_point"><text class="text_synopsis" space="emnp">● 弹性福利：多种弹性福利，包含超长春节假期、带薪年假，产假、护理假、老人陪护假、年度体检，女职工津贴、节日礼品及生日礼品金，职工食堂、互助互济、困难帮扶、金秋助学、结婚生育慰问、生病住院慰问、直系亲属去世慰问等。\n</text></view>
+    </scroll-view>
+    <view class="page_little_title">
+        <text class="text_title">校招要求</text>
+    </view>
+    <scroll-view scroll-y="true" style="height=600rpx" class="page_text">
+        <view class="view_point"><text class="text_synopsis" space="emnp">● 重点高校学士、硕士应届毕业生\n</text></view>
+        <view class="view_point"><text class="text_synopsis" space="emnp">● 学习成绩优异，有创新成果及专利者优先\n</text></view>
+        <view class="view_point"><text class="text_synopsis" space="emnp">● 兴趣爱好广泛，有特长者优先\n</text></view>
+        <view class="view_point"><text class="text_synopsis" space="emnp">● 认同公司企业文化及发展理念\n</text></view>
+        <text class="text_synopsis" space="emnp">● 愿意在四川/重庆长久定居发展\n</text>
+    </scroll-view>
   </view>
 </view>

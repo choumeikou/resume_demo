@@ -1,17 +1,28 @@
 <!--pages/upload/upload.wxml-->
 <view class="page_body">
-  <view class="section">
-    <text>你选择的职位：{{job}}</text>
+  <view class="input">
+    <text class="text_synopsis" space="emsp"> 你选择的职位：{{job}}</text>
   </view>
   <form bindsubmit="upfilefun">
   <view class="section">
-    <input placeholder="请选择你要上传的简历（word/pdf)" value="{{filename}}" disabled="true"></input>
+    <text>姓名：</text>
+    <input class="inputstyle" placeholder="请输入姓名" name="name"></input>
   </view>
   <view class="section">
-    <button bindtap="choosefilefun">选择</button>
+    <text>学校：</text>
+    <input class="inputstyle" placeholder="请输入学校" name="university"></input>
   </view>
   <view class="section">
-    <button form-type="submit">上传</button>
+    <text>请从微信会话中选择你要上传的简历</text>
+  </view>
+  <view class="section">
+  <button class="btn_1" style="width:60%" bindtap="choosefilefun">选择</button>
+  </view>
+  <view>
+    <input class="inputstyle1" value="{{filename}}" disabled="true" name="filename"></input>
+  </view>
+  <view class="section">
+    <button class="btn_1" style="width:60%" form-type="submit">上传</button>
   </view>
   </form>
 </view>

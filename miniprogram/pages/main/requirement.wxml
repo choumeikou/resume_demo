@@ -1,0 +1,38 @@
+<!--miniprogram/pages/main/requirement.wxml-->
+<view class="container">
+  <view class="page_body">
+    <view class="page_section">
+      <swiper indicator-dots="true" indicator-color="white" indicator-active-color="grey" autoplay="true" circular="true" interval="2500" duration="1000">
+        <swiper-item class="swiper_item_center">
+          <image mode="widthFix" src="/images/background1.png"></image>
+        </swiper-item>
+        <swiper-item class="swiper_item_center">
+          <image mode="widthFix" src="/images/background2.png"></image>
+        </swiper-item>
+        <swiper-item class="swiper_item_center">
+          <image mode="widthFix" src="/images/background3.png"></image>
+        </swiper-item>
+        <swiper-item class="swiper_item_center">
+          <image mode="widthFix" src="/images/background4.png"></image>
+        </swiper-item>
+        <swiper-item class="swiper_item_center">
+          <image mode="widthFix" src="/images/background5.jpg"></image>
+        </swiper-item>
+        <swiper-item class="swiper_item_center">
+          <image mode="widthFix" src="/images/background6.jpg"></image>
+        </swiper-item>
+      </swiper>
+    </view>
+    <view class="page_little_title">
+      <text class="text_title">校招要求</text>
+    </view>
+    <scroll-view scroll-y="true" style="height=600rpx" class="page_text">
+        <view class="view_point"><text class="text_synopsis" space="emsp">● 重点高校学士、硕士应届毕业生\n</text></view>
+        <view class="view_point"><text class="text_synopsis" space="emsp">● 在校学习成绩优异，有创新成果及专利者优先\n</text></view>
+        <view class="view_point"><text class="text_synopsis" space="emsp">● 兴趣爱好广泛，有特长者优先\n</text></view>
+        <view class="view_point"><text class="text_synopsis" space="emsp">● 认同公司企业文化及发展理念\n</text></view>
+        <text class="text_synopsis" space="emsp">● 愿意在四川/重庆长久定居发展\n</text>
+  </scroll-view>
+  </view>
+</view>
+

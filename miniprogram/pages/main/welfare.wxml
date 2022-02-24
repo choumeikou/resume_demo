@@ -1,0 +1,35 @@
+<!--miniprogram/pages/main/welfare.wxml-->
+<view class="container">
+  <view class="page_body">
+    <view class="page_section">
+      <swiper indicator-dots="true" indicator-color="white" indicator-active-color="grey" autoplay="true" circular="true" interval="2500" duration="1000">
+        <swiper-item class="swiper_item_center">
+          <image mode="widthFix" src="/images/background1.png"></image>
+        </swiper-item>
+        <swiper-item class="swiper_item_center">
+          <image mode="widthFix" src="/images/background2.png"></image>
+        </swiper-item>
+        <swiper-item class="swiper_item_center">
+          <image mode="widthFix" src="/images/background3.png"></image>
+        </swiper-item>
+        <swiper-item class="swiper_item_center">
+          <image mode="widthFix" src="/images/background4.png"></image>
+        </swiper-item>
+        <swiper-item class="swiper_item_center">
+          <image mode="widthFix" src="/images/background5.jpg"></image>
+        </swiper-item>
+        <swiper-item class="swiper_item_center">
+          <image mode="widthFix" src="/images/background6.jpg"></image>
+        </swiper-item>
+      </swiper>
+    </view>
+    <view class="page_little_title">
+      <text class="text_title">薪资福利</text>
+    </view>
+    <scroll-view scroll-y="true" style="height=600rpx" class="page_text">
+        <view class="view_point"><text class="text_synopsis">●现金收入：多种薪酬奖金激励，包含岗位工资，职级工资、绩效奖励，学历补贴、职称技能补贴、职/执业资格补贴、司龄津贴、防暑降温费、冬季取暖费、误餐费补贴、交通补贴、通讯补贴、外区补贴、住房补贴及安家费等。\n</text></view>
+        <view class="view_point"><text class="text_synopsis">●保险福利：多种社会保险福利，六险两金（在国家规定基础上增加补充医疗保险、企业年金）等。\n</text></view>
+        <view class="view_point"><text class="text_synopsis">●弹性福利：多种弹性福利，包含超长春节假期、带薪年假，产假、护理假、老人陪护假、年度体检，女职工津贴、节日礼品及生日礼品金，职工食堂、互助互济、困难帮扶、金秋助学、结婚生育慰问、生病住院慰问、直系亲属去世慰问等。\n</text></view>
+  </scroll-view>
+  </view>
+</view>

@@ -50,8 +50,7 @@ swiper{
   text-align:center;
 }
 .text_synopsis{
-  font-size:30rpx;
-  font-weight: lighter;
+  font-size:35rpx;
 }
 .label_style{
   width:100%;
@@ -62,12 +61,25 @@ swiper{
     
 }
 .section{
-  padding-top: 10rpx;
+  padding-top: 30rpx;
+  padding-bottom:30rpx;
   width:100%;
-  height: 70rpx;
+  display: flex;
+  align-items: center;
 }
-.section_button{
-  padding-top: 100rpx;
-  width:100%;
-  height: 70rpx;
+.input{
+  line-height: 50rpx;
+}
+.inputstyle{
+  height:70rpx;
+  width:60%;
+  border: 1rpx solid black;
+}
+.inputstyle1{
+  height:100rpx;
+}
+.btn_1{
+  background-color: rgb(2, 218, 2);
+  color: white; 
+  border: 3rpx solid black;
 }
