@@ -1,0 +1,28 @@
+/* pages/main/index.wxss */
+swiper-item{
+  width:100%;
+  height:100%;
+}
+swiper{
+  width:100%;
+  height:300rpx;
+}
+.page_section_center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page_text{
+  width: 100%;
+  margin-bottom:100rpx;
+  line-height: 70rpx;
+}
+.swiper_item_center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text_synopsis{
+  font-size:35rpx;
+}

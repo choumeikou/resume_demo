@@ -1,0 +1,51 @@
+<!--pages/main/index.wxml-->
+<view class="container">
+  <view class="page_body">
+    <view class="page_section">
+      <swiper indicator-dots="true" indicator-color="white" indicator-active-color="grey" autoplay="true" circular="true" interval="2500" duration="1000">
+        <swiper-item class="swiper_item_center">
+          <image mode="widthFix" src="/images/background1.png"></image>
+        </swiper-item>
+        <swiper-item class="swiper_item_center">
+          <image mode="widthFix" src="/images/background2.png"></image>
+        </swiper-item>
+        <swiper-item class="swiper_item_center">
+          <image mode="widthFix" src="/images/background3.png"></image>
+        </swiper-item>
+        <swiper-item class="swiper_item_center">
+          <image mode="widthFix" src="/images/background4.png"></image>
+        </swiper-item>
+        <swiper-item class="swiper_item_center">
+          <image mode="widthFix" src="/images/background5.jpg"></image>
+        </swiper-item>
+        <swiper-item class="swiper_item_center">
+          <image mode="widthFix" src="/images/background6.jpg"></image>
+        </swiper-item>
+      </swiper>
+    </view>
+    <view class="page_little_title">
+      <text class="text_title">公司简介</text>
+    </view>
+    <scroll-view scroll-y="true" style="height=600rpx" class="page_text">
+        <text class="text_synopsis" space="emsp">  四川华西绿舍建材有限公司是中国500强企业、四川省属大型国有建筑企业四川华西集团有限公司围绕建筑产业链，实施多元化战略，2009年重组整合华西集团内建材业务成立的全资子公司，系华西集团建材业务、装配式建筑业务发展承载平台。公司主营业务包括预拌混凝土、装配式建筑、产业链延伸三大业务板块；旗下控股子公司11家，分别位于成都、重庆、宜宾、德阳、内江和西昌等地。公司注册资本1.59亿元，2018年实现营收32亿元，员工总数1200余人。\n  公司始终秉承“建时代精品，筑美好人生”的企业宗旨，发扬“秉德从道，善建天下”的企业精神，坚持“绿色发展、科技强企”的发展理念，大力弘扬外以客户为中心、内以“责任、务实、创新、包容”为优良工作作风的企业文化，曾多次荣获四川省国资委先进基层党组织、四川省先进文明单位、四川省建筑业优秀企业、四川省工程质量信得过单位、全国行业质量示范企业、中国混凝土行业优秀企业、建设部和四川省“科技进步一等奖”、“质量榜样年度质量标杆企业奖”、“2018年度质量金鼎奖”荣誉；公司连续多年荣登中国预拌混凝土企业十强，中国建材企业50强企业，中国混凝土行业绿色生产示范企业、四川省首家经省建设主管部门认可的国家绿色建材三星标识企业，中国863项目纳米改性水泥基胶凝材料的制备与应用技术示范基地。\n</text>
+    </scroll-view>
+    <view class="page_little_title">
+      <text class="text_title">薪资福利</text>
+    </view>
+    <scroll-view scroll-y="true" style="height=600rpx" class="page_text">
+        <view class="view_point"><text class="text_synopsis" space="emnp">● 现金收入：多种薪酬奖金激励，包含岗位工资，职级工资、绩效奖励，学历补贴、职称技能补贴、职/执业资格补贴、司龄津贴、防暑降温费、冬季取暖费、误餐费补贴、交通补贴、通讯补贴、外区补贴、住房补贴及安家费等。\n</text></view>
+        <view class="view_point"><text class="text_synopsis" space="emnp">● 保险福利：多种社会保险福利，六险两金（在国家规定基础上增加补充医疗保险、企业年金）等。\n</text></view>
+        <view class="view_point"><text class="text_synopsis" space="emnp">● 弹性福利：多种弹性福利，包含超长春节假期、带薪年假，产假、护理假、老人陪护假、年度体检，女职工津贴、节日礼品及生日礼品金，职工食堂、互助互济、困难帮扶、金秋助学、结婚生育慰问、生病住院慰问、直系亲属去世慰问等。\n</text></view>
+    </scroll-view>
+    <view class="page_little_title">
+        <text class="text_title">校招要求</text>
+    </view>
+    <scroll-view scroll-y="true" style="height=600rpx" class="page_text">
+        <view class="view_point"><text class="text_synopsis" space="emnp">● 重点高校学士、硕士应届毕业生\n</text></view>
+        <view class="view_point"><text class="text_synopsis" space="emnp">● 学习成绩优异，有创新成果及专利者优先\n</text></view>
+        <view class="view_point"><text class="text_synopsis" space="emnp">● 兴趣爱好广泛，有特长者优先\n</text></view>
+        <view class="view_point"><text class="text_synopsis" space="emnp">● 认同公司企业文化及发展理念\n</text></view>
+        <text class="text_synopsis" space="emnp">● 愿意在四川/重庆长久定居发展\n</text>
+    </scroll-view>
+  </view>
+</view>
